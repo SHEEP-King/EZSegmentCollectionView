@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
 
 
-  s.source       = {:git => "https://github.com/SHEEP-King/EZSegmentCollectionView.git", :tag => s.version.to_s}
+  s.source       = {:git => "https://github.com/SHEEP-King/EZSegmentCollectionView.git",: branch => 'master', :tag => s.version.to_s}
 
   s.source_files  = "EZSegmentCollectionView/*"
 
