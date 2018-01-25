@@ -10,18 +10,16 @@ Pod::Spec.new do |s|
 
   s.name         = "EZSegmentCollectionView"
   s.version      = "1.0.0"
-  s.summary      = "a scrollView of collection having horizontal and vertical "
+  s.summary      = "EZSegmentCollectionView"
 
-  s.description  = <<-DESC
-			it is a scroll segment View used on IOS,which implement by Objective-C.
-                   DESC
+  s.description  = “简单的segement view 支持横向和竖向滚动”
 
-  s.homepage     = "https://github.com/SHEEP-King/EZSegmentCollectionView.git"
+  s.homepage     = "https://github.com/SHEEP-King/EZSegmentCollectionView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
-  s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #s.license      = "MIT"
+   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   s.author             = { "ElonZhang" => "elonzhang@163.com" }
@@ -29,7 +27,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
 
 
-  s.source       = {:git => "https://github.com/SHEEP-King/EZSegmentCollectionView.git", :tag => s.version.to_s}
+  s.source       = {:git => "https://github.com/SHEEP-King/EZSegmentCollectionView.git", :tag => #{s.version}}
 
   s.source_files  = "EZSegmentCollectionView/*"
 
