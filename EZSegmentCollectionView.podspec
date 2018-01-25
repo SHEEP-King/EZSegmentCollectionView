@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "EZSegmentCollectionView"
 
-  s.description  = “简单的segement view 支持横向和竖向滚动”
+  s.description  = “简单的segment view 支持横向和竖向滚动”
 
   s.homepage     = "https://github.com/SHEEP-King/EZSegmentCollectionView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
-  s.source       = {:git => "https://github.com/SHEEP-King/EZSegmentCollectionView.git", :tag => #{s.version}}
+  s.source       = {:git => "https://github.com/SHEEP-King/EZSegmentCollectionView.git", :tag => s.version.to_s}
 
   s.source_files  = "EZSegmentCollectionView/*"
 
