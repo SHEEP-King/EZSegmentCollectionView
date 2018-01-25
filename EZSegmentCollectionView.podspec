@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "EZSegmentCollectionView", "EZSegmentCollectionView/**/*.{h,m}"
-  #s.exclude_files = "Classes/Exclude"
+  s.exclude_files = "EZSegmentCollectionViewDemo"
 
   # s.public_header_files = "Classes/**/*.h"
 
